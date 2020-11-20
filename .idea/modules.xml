@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Tasks4Sintax.iml" filepath="$PROJECT_DIR$/Tasks4Sintax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Tasks4Sintax.iml" filepath="$PROJECT_DIR$/.idea/Tasks4Sintax.iml" />
     </modules>
   </component>
 </project>

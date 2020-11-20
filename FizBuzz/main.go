@@ -12,16 +12,16 @@ import (
 func fizbuzz(upToNumber int) {
 	for i := 1; i <= upToNumber; i++ {
 
-		if i%3 == 0 {
+		if i % 3 == 0 {
 			// Multiple of 3
 			fmt.Printf("fizz")
 		}
-		if i%5 == 0 {
+		if i % 5 == 0 {
 			// Multiple of 5
 			fmt.Printf("buzz")
 		}
 
-		if i%3 != 0 && i%5 != 0 {
+		if i % 3 != 0 && i % 5 != 0 {
 			// Neither, so print the number itself
 			fmt.Printf("%d", i)
 		}
@@ -31,6 +31,7 @@ func fizbuzz(upToNumber int) {
 	}
 	fmt.Println()
 }
+
 func main() {
 	fizbuzz(100)
 }
